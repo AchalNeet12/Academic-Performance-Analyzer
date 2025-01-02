@@ -34,30 +34,30 @@
    - `Deployment Tools`: Flask and Streamlit for separate user interaction interfaces.
 ---
 ## 🔍 Data Preprocessing:
- 1. **Data Cleaning:** Ensured no null or missing values in the dataset.
- 2. **Feature Selection:** Used Study Hours as the independent variable.
- 3. **Splitting Dataset:**
-  - Train-Test Split: Divided the dataset into training (80%) and testing (20%) sets.
- 5. **Feature Scaling:** Not required for linear regression in this case.
+  1. **Data Cleaning:** Ensured no null or missing values in the dataset.
+  2. **Feature Selection:** Used Study Hours as the independent variable.
+  3. **Splitting Dataset:**
+     - Train-Test Split: Divided the dataset into training (80%) and testing (20%) sets.
+  5. **Feature Scaling:** Not required for linear regression in this case.
 ---
 ## 📑 Model:
  1. Model Training:
-  - Linear Regression from Scikit-learn.
-  - Fitted using the training data (`X_train` and `y_train`).
+    - Linear Regression from Scikit-learn.
+    - Fitted using the training data (`X_train` and `y_train`).
  2. Evaluation Metrics:
-  - R² Score: Indicates how well the model explains the variance in marks.
-  - Mean Squared Error (MSE): Measures average squared difference between predicted and actual values.
-  - Mean Absolute Error (MAE): Measures average absolute difference.
+    - R² Score: Indicates how well the model explains the variance in marks.
+    - Mean Squared Error (MSE): Measures average squared difference between predicted and actual values.
+    - Mean Absolute Error (MAE): Measures average absolute difference.
 ---
 ## 🌐 Frontend Implementations:
 1. Flask:
-  - A web-based application with form-based inputs.
-  - Users input study hours, and the app predicts marks and displays them on the page.
-  - Stores prediction history in a CSV file.
+    - A web-based application with form-based inputs.
+    - Users input study hours, and the app predicts marks and displays them on the page.
+    - Stores prediction history in a CSV file.
 2. Streamlit:
-  - A modern, interactive dashboard with input widgets.
-  - Displays prediction history in a sidebar and allows CSV downloads. 
-  - Includes a "Clear History" feature to reset the stored data.
+    - A modern, interactive dashboard with input widgets.
+    - Displays prediction history in a sidebar and allows CSV downloads. 
+    - Includes a "Clear History" feature to reset the stored data.
 ---
 ## 📈 Result:
  - **Model Accuracy:** The model achieved an 𝑅2 score of 0.952, indicating that it explains 95.2% of the variance in the target variable.
