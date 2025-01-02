@@ -1,0 +1,18 @@
+---Backend libraries---
+numpy
+pandas
+matplotlib.pyplot
+scikit-learn
+*****************************
+---Frontend using Streamlit---
+numpy
+pandas
+joblib
+streamlit
+base64
+*****************************
+---Frontend using Streamlit---
+numpy
+pandas
+from flask import Flask,request,render_template
+joblib
