@@ -9,7 +9,7 @@
  - **Name:** Student Study Hours and Marks Dataset
  - **Features:**
    - `Study Hours:` Number of hours a student studies per day (independent variable).
-   - `Marks:` Percentage of marks obtained by the student (dependent variable).
+   - `Marks:` Percentage of marks obtained by the student (dependent variable). 
  - **Source:** Synthetic or public dataset used for simplicity.
  - **Size:** Contains several rows of `Study Hours` and `Marks` data points.
 ---
